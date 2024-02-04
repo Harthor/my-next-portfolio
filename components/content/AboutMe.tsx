@@ -9,8 +9,7 @@ const AboutMe = () => {
       </h2>
 
       <p className='text-base text-gray-400'>
-        I am a passionate dev with +2 years of work experience and love learning new technologies since I discovered programming, I am currently learning the way to be a DevOps specialist.
-      </p>
+      I am a highly motivated and passionate developer with more than 2 years of work experience. I have a strong desire to constantly expand my knowledge and expertise in programming by learning and exploring new technologies. My journey in programming has been an exhilarating one, and I have discovered a deep passion for it.          </p>
 
     </AnimationContainer>
   )

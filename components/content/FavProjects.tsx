@@ -148,18 +148,7 @@ const FavProjects = () => {
         Top projects
       </h2>
 
-      <Carousel
-        slideSize='50%'
-        breakpoints={[{ maxWidth: 'xs', slideSize: '100%', slideGap: 1 }]}
-        slideGap='xs'
-        align='center'
-        slidesToScroll={mobile ? 1 : 2}
-        withControls={false}
-        style={{ width: '100%', cursor: 'grab' }}
-        loop
-      >
-        {slides}
-      </Carousel>
+     
 
     </AnimationContainer>
   );

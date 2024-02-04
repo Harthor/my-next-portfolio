@@ -17,12 +17,10 @@ const AboutSection = () => {
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
           <p className='text-base text-gray-400'>
-            I am a passionate dev with +2 years of work experience in JavaScript/TypeScript and love learning new technologies since I discovered programming, I am currently learning the way to be a DevOps specialist.
-          </p>
+          I am a highly motivated and passionate developer with more than 2 years of work experience. I have a strong desire to constantly expand my knowledge and expertise in programming by learning and exploring new technologies. My journey in programming has been an exhilarating one, and I have discovered a deep passion for it.          </p>
 
           <p className='text-base text-gray-400'>
-            I also use in web, mobile and desktop development Next.js, Angular, Ionic and Electron, to add I also have experience working in Backend with Node and in the UX design part with Figma always implementing good practices in prototyping and coding, clean architecture, SOLID principles, pixel perfect, GitFlow practices and agile methodologies.
-          </p>
+          Currently, I am focusing on sharpening my skills in TypeScript, as it is an exciting and powerful language that I believe will greatly enhance my development capabilities.          </p>
 
         </AnimationContainer>
 
@@ -36,9 +34,7 @@ const AboutSection = () => {
             A look at all the programming languages, libraries, and tools I've worked with, I started programming about 4 years ago. I have tried a few programming languages and technology stack, both Backend and Frontend.
           </p>
 
-          <p className='text-base text-gray-400'>
-            Event though the scope of web development is wide, I was very interested and focused on Frontend development.
-          </p>
+          
 
           <div className='flex flex-col items-start gap-3 mt-3'>
 

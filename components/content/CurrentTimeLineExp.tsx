@@ -8,33 +8,19 @@ const CurrentTimeLineExp = () => {
 
       <TimelineEvent active>
 
-        <TimelineEvent.Title><a href='https://www.ia.com.mx' target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'>IA Interactive</a> | mar. 2023 - Currently</TimelineEvent.Title>
+        <TimelineEvent.Title> | 2021-2022</TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Frontend development and maintenance of projects implementing agile methodologies (Kanban in Jira) and best practices such as SOLID principles, pixel perfect, clean architecture, clean code using Jira, SCRUM practices, Git, GitFlow practices, Bitbucket, HTML, CSS, Pug, SASS, Tailwind, JavaScript, TypeScript, React, Next.js, Redux, Zustand, Jest and using microfrontends and Storybook to facilitate the use of reusable components.
+        I have gained experience in Blockchain Programming during my time at 1Hive. Additionally, I have also dedicated a significant amount of my time to engaging in social work at Token Engineering Commons, where I have been actively involved in various projects and initiatives aimed at creating positive social impact. Through these experiences, I have developed a deep understanding of the intricacies of blockchain technology and its potential to revolutionize various industries.
+
+Throughout my journey, I have actively sought out and engaged with a multitude of tutorials, ranging from various marketplaces to insightful blogs and forums. I firmly believe in the value of continuous learning, and these resources have been instrumental in expanding my knowledge and honing my skills as a developer.
         </TimelineEvent.Description>
 
       </TimelineEvent>
 
-      <TimelineEvent>
+      
 
-        <TimelineEvent.Title>Freelance | feb. 2022 - mar. 2023</TimelineEvent.Title>
-
-        <TimelineEvent.Description>
-          Design and development of web pages applying agile methodologies, clean architecture, SOLID principles and pixel perfect in all projects, I have developed almost all types of projects from Landing pages, stores, blogs and dashboards.
-        </TimelineEvent.Description>
-
-      </TimelineEvent>
-
-      <TimelineEvent last>
-
-        <TimelineEvent.Title>Studio Iluxion | may. 2022 - jul. 2022</TimelineEvent.Title>
-
-        <TimelineEvent.Description>
-          Web designer and responsive web designer on projects using Figma, HTML, CSS, SCSS, SASS, Bootstrap, JavaScript, jQuery implementing SCRUM, pixel perfect and clean code.
-        </TimelineEvent.Description>
-
-      </TimelineEvent>
+      
 
     </Timeline>
   )

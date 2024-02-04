@@ -10,10 +10,12 @@ const Head = () => {
   const titleFixedToShow = pathname.slice(1).charAt(0).toUpperCase() + pathname.slice(2);
 
   const meta = {
-    title: `Jean Rondón ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
-    description: `Hi! My name is Jean Rondón I'm from Venezuela and I have +2 year of work experience in JavaScript/TypeScript and React, I'm a lover of page design or other things and whenever I can I try to learn new technologies since I discovered programming at 16. I love what I do and I help others with what I can, I also use in web, mobile and desktop development Next.js, Angular, Ionic and Electron implementing good practices, clean architecture, pixel perfect and agile methodologies.`,
-    keywords: 'Jean Rondon, Jeandv, Jean Rondon portafolio, Jeandv portafolio, Jeandv portfolio, Jean Rondon portfolio, Jeandv github, Jean Rondon github, Jeandv LinkedIn, Jean Rondon LinkedIn, Web, Desarrollo web, Programador web, Diseño web, Paginas web, Aplicaciones web, Aplicaciones móviles, Aplicaciones escritorio, Desarrollo frontend, Programador frontend, HTML, CSS, Javascript, Typescript, React, Angular.',
-    type: 'website'
+    title: `Gastón Needleman ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
+    description: `Hello! I'm from Argentina with 2+ years in web development, focusing on Python, Django, and JavaScript. I contributed to 1Hive and Token Engineering Commons, enhancing my skills through open-source projects. I continuously explore new technologies and welcome opportunities for impactful collaboration. Driven by a love for technology, my journey is defined by continuous learning and meaningful engagement with the tech world.`,
+    keywords: "Gastón Needleman, Gaston Needleman portfolio, Gaston Needleman GitHub, Gastón Needleman LinkedIn, Web development, Web programmer, Web design, Website creation, Web applications, Mobile applications, Desktop applications, Frontend development, Backend development, Full-stack developer, HTML, CSS, JavaScript, Python, Django, Open source contributions, 1Hive, Token Engineering Commons, Agile methodologies, Continuous learning, Tech community engagement.",
+    type: "website"
+  
+    
   };
 
   return (
@@ -25,7 +27,7 @@ const Head = () => {
       <meta name='keywords' content={meta.keywords} />
       <meta property='og:url' content={`https://jeandv.vercel.app${pathname}`} />
       <link rel='canonical' href={`https://jeandv.vercel.app${pathname}`} />
-      <link rel='me' href='mailto:jeanrdev@gmail.com' />
+      <link rel='me' href='mailto:gastoncmr@gmail.com' />
       <meta property='og:type' content={meta.type} />
       <meta property='og:site_name' content='Jean Rondón' />
       <meta property='og:description' content={meta.description} />
