@@ -1,7 +1,7 @@
 export const skills = [
   {
     title: 'Languages',
-    techs: ['HTML', 'CSS', 'JavaScript', 'TypeScript']
+    techs: ['HTML', 'CSS', 'JavaScript', 'TypeScript','Python']
   },
   {
     title: 'Frameworks and libraries',
@@ -13,7 +13,7 @@ export const skills = [
   },
   {
     title: 'Preprocessors, css style, component and motion libraries',
-    techs: ['Bootstrap', 'Tailwind', 'ChakraUI', 'MaterialUI', 'NextUI']
+    techs: ['Bootstrap', 'Tailwind', 'MaterialUI']
   },
   {
     title: 'Backend stack',
