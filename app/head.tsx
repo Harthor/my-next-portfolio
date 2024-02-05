@@ -29,7 +29,7 @@ const Head = () => {
       <link rel='canonical' href={`https://jeandv.vercel.app${pathname}`} />
       <link rel='me' href='mailto:gastoncmr@gmail.com' />
       <meta property='og:type' content={meta.type} />
-      <meta property='og:site_name' content='Jean Rondón' />
+      <meta property='og:site_name' content='Gaston Needleman' />
       <meta property='og:description' content={meta.description} />
       <meta property='og:title' content={meta.title} />
       <meta name='twitter:card' content='summary_large_image' />
